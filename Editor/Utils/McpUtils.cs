@@ -28,7 +28,7 @@ namespace McpUnity.Utils
                     {
                         { "mcp-unity", new Dictionary<string, object>
                             {
-                                { "command", "node" },
+                                { "command", "/opt/homebrew/bin/node" },
                                 { "args", new[] { Path.Combine(GetServerPath(), "build", "index.js") } }
                             }
                         }
